@@ -106,4 +106,4 @@ Here is the content of the index.html file that you can use to interact with the
 You now have a working sentiment analysis API running in a Docker container, along with a simple HTML interface to interact with it. Feel free to modify the code and improve the application as needed!
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/xEMPERORx/api_text_sentiment/blob/main/LICENSE) file for details.
