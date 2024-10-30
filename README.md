@@ -37,8 +37,10 @@ Make sure to include the following libraries in your `requirements.txt`:
    ```bash
    git clone https://github.com/xEMPERORx/api_text_sentiment.git
    cd api_text_sentiment
-     docker build -t api_text_sentiment
-  
+``
+   ```bash
+   docker build -t api_text_sentiment
+```
 ## Running the Docker Container
 ```bash
   docker run -p 8000:8000 sentiment-analysis-api
@@ -104,4 +106,4 @@ Here is the content of the index.html file that you can use to interact with the
 You now have a working sentiment analysis API running in a Docker container, along with a simple HTML interface to interact with it. Feel free to modify the code and improve the application as needed!
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [docs/LICENSE](docs/LICENSE) file for details.
