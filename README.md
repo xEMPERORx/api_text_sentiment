@@ -43,7 +43,7 @@ Make sure to include the following libraries in your `requirements.txt`:
 ```
 ## Running the Docker Container
 ```bash
-  docker run -p 8000:8000 sentiment-analysis-api
+  docker run -p 8000:8000 api_text_sentiment
 ```
 
 ## Accessing the Application
