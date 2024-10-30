@@ -37,7 +37,7 @@ Make sure to include the following libraries in your `requirements.txt`:
    ```bash
    git clone https://github.com/xEMPERORx/api_text_sentiment.git
    cd api_text_sentiment
-``
+```
    ```bash
    docker build -t api_text_sentiment
 ```
