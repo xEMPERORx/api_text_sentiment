@@ -37,13 +37,14 @@ Make sure to include the following libraries in your `requirements.txt`:
    ```bash
    git clone https://github.com/xEMPERORx/api_text_sentiment.git
    cd api_text_sentiment
-  ```
-  ```bash 
-  docker build -t api_text_sentiment
+     docker build -t api_text_sentiment
+  
+## Running the Docker Container
+```bash
   docker run -p 8000:8000 sentiment-analysis-api
 ```
 
-## Accessing the API with HTML
+## Accessing the Application
 Open the HTML File: Open the index.html file in your web browser. You can do this by double-clicking the file or dragging it into your browser.
 
 Enter Text: In the text area provided, type the text you want to analyze for sentiment.
@@ -52,7 +53,7 @@ Submit the Request: Click the "Submit" button. This action will send a POST requ
 
 View the Response: The sentiment analysis result will be displayed below the button. If the request is successful, you will see the sentiment (e.g., "POSITIVE", "NEGATIVE", etc.). If there is an error, an error message will be displayed.
 
-Example HTML File
+## Example HTML File
 Here is the content of the index.html file that you can use to interact with the API:
 ```html
 <!DOCTYPE html>
@@ -102,4 +103,5 @@ Here is the content of the index.html file that you can use to interact with the
 ## Conclusion
 You now have a working sentiment analysis API running in a Docker container, along with a simple HTML interface to interact with it. Feel free to modify the code and improve the application as needed!
 
-
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
